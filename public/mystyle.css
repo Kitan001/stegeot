@@ -1,0 +1,99 @@
+.info {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.info h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.info input {
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+}
+.info input ::-moz-placeholder {
+  font-weight: bold;
+  margin-left: 90px;
+}
+.info input :-ms-input-placeholder {
+  font-weight: bold;
+  margin-left: 90px;
+}
+.info input ::placeholder {
+  font-weight: bold;
+  margin-left: 90px;
+}
+
+.details-body h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.details-body table th {
+  border: 1px solid black;
+  width: 10%;
+}
+.details-body table tbody, .details-body table tr, .details-body table td {
+  border: 1px solid black;
+  text-align: center;
+}
+.details-body table tbody input, .details-body table tr input, .details-body table td input {
+  cursor: pointer;
+}
+
+input[type=submit] {
+  margin-top: 50px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  background-color: rgb(175, 172, 167);
+  transition: 0.5s ease;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: antiquewhite;
+}
+
+@media (max-width: 456px) {
+  .details-body h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .details-body table th {
+    border: 1px solid black;
+    width: 10%;
+  }
+  .details-body table tbody, .details-body table tr, .details-body table td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 10px;
+  }
+  .details-body table tbody input, .details-body table tr input, .details-body table td input {
+    cursor: pointer;
+  }
+}
+@media (max-width: 375px) {
+  .details-body h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .details-body table th {
+    border: 1px solid black;
+    width: 10%;
+  }
+  .details-body table tbody, .details-body table tr, .details-body table td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 8px;
+  }
+  .details-body table tbody input, .details-body table tr input, .details-body table td input {
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=mystyle.css.map */
